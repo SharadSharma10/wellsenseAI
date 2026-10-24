@@ -1,0 +1,25 @@
+{
+  "model_name": "LogisticRegression",
+  "feature_columns": [
+    "phq9_score",
+    "gad7_score",
+    "perceived_stress",
+    "academic_pressure",
+    "study_hours_per_day",
+    "sleep_hours",
+    "sleep_efficiency",
+    "resting_heart_rate",
+    "daily_steps",
+    "physical_activity_minutes",
+    "social_support_score",
+    "financial_stress"
+  ],
+  "target_column": "wellbeing_tier",
+  "class_mapping": {
+    "0": "Low Risk",
+    "1": "Moderate Risk",
+    "2": "High Risk"
+  },
+  "requires_scaled_input": true,
+  "model_version": "1.0.0"
+}
